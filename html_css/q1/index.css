@@ -6,6 +6,7 @@
 
 main > *:nth-child(1) {
 	background-color: salmon;
+  grid-column: span 2;
 }
 
 main > *:nth-child(2) {
@@ -14,4 +15,12 @@ main > *:nth-child(2) {
 
 main > *:nth-child(3) {
 	background-color: khaki;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
