@@ -9,12 +9,24 @@ const obj2 = {
   baz: [6, 7],
 };
 
-console.log(Object.assign({ obj1, obj2 }));
-const apple = { ...obj1, ...obj2 };
-// console.log(keyof obj1)
+// EXPECT
+// {
+//   foo: [1, 2, 5],
+//   bar: [3],
+//   baz: [4, 6, 7]
+// }
 
 const Question5 = () => {
-  return "adfa";
+  const objKeys = Object.keys({ ...obj1, ...obj2 });
+  let result = {};
+
+  objKeys.map((key) => {
+    const newObjValue = [];
+    obj1[key] && newObjValue.push(...obj1[key]);
+    obj2[key] && newObjValue.push(...obj2[key]);
+    result = { [key]: newObjValue, ...result };
+  });
+  console.log(result);
 };
 
 export default Question5;

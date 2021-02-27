@@ -23,8 +23,8 @@ const onFixPointPosition = (numStr = "") => {
 
 const onFixDollarString = (numStr = "") => {
   if (Math.sign(Number(numStr)) === -1) {
-    const newsStr = numStr.slice(1);
-    return `-$${newsStr}`;
+    const removedMinusStr = numStr.slice(1);
+    return `-$${removedMinusStr}`;
   } else {
     return `$${numStr}`;
   }
