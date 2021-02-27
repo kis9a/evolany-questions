@@ -14,7 +14,7 @@ const convert = (num = 0) => {
 };
 
 const onFixNumberOfDigits = (num = 0) => {
-  return Math.floor((num * 100) / 100);
+  return Math.floor(num * 100) / 100;
 };
 
 const onFixPointPosition = (numStr = "") => {
