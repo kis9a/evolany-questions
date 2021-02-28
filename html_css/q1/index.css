@@ -1,20 +1,20 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 main > *:nth-child(1) {
-	background-color: salmon;
+  background-color: salmon;
   grid-column: span 2;
 }
 
 main > *:nth-child(2) {
-	background-color: steelblue;
+  background-color: steelblue;
 }
 
 main > *:nth-child(3) {
-	background-color: khaki;
+  background-color: khaki;
 }
 
 main {

@@ -7,7 +7,8 @@
 
 header,
 footer {
-  height: 50px;
+  padding-left: 12px;
+  height: 80px;
   background-color: salmon;
   display: flex;
   align-items: center;
@@ -17,7 +18,11 @@ footer {
 main {
   flex: 1;
   background-color: steelblue;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 160px);
   width: 100%;
   overflow: scroll;
+}
+
+main > * {
+  padding: 12px;
 }
