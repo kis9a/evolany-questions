@@ -3,6 +3,7 @@ import Question2 from "./q2/index";
 import Question3 from "./q3/index";
 import Question4 from "./q4/index";
 import Question5 from "./q5/index";
+import Question6 from "./q6/index";
 
 const main = () => {
   const args = process.argv.slice(2);
@@ -25,6 +26,9 @@ const main = () => {
         case "5":
           Question5();
           break;
+        case "6":
+          Question6();
+          break;
         default:
           break;
       }
@@ -40,6 +44,7 @@ const allQuestions = () => {
   Question3();
   Question4();
   Question5();
+  Question6();
 };
 
 main();
