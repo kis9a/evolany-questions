@@ -1,0 +1,53 @@
+body {
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+}
+
+.container:hover .button-overlay {
+  height: 100%;
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.button-above,
+.button-overlay {
+  font-size: 24px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  height: 100px;
+  width: 300px;
+}
+
+.button-above {
+  background-color: steelblue;
+}
+
+.button-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: salmon;
+  transition: 0.5s ease;
+}
