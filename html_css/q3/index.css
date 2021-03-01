@@ -26,3 +26,23 @@ main {
 main > * {
   padding: 12px;
 }
+
+/* body { */
+/* 	width: 100vw; */
+/* 	height: 100vh; */
+/* 	overflow: hidden; */
+/* 	display: flex; */
+/* 	flex-direction: column; */
+/* } */
+
+/* header, footer { */
+/* 	background-color: salmon; */
+/* 	padding: 2rem; */
+/* } */
+
+/* main { */
+/* 	background-color: steelblue; */
+/* 	flex: 1; */
+/* 	overflow-y: auto; */
+/* 	padding: 2rem; */
+/* } */

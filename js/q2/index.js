@@ -9,6 +9,7 @@ const Question2 = () => {
   const result = newSplitedCharList.join("");
   console.log(result);
   return result;
+  // return 'local_host_time'.replace(/_([a-z])/g, (_, i) => i.toUpperCase())
 };
 
 const toUpperFirstChar = (str = "") => {

@@ -24,3 +24,37 @@ main {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
+
+/* * { */
+/* 	box-sizing: border-box; */
+/* 	margin: 0; */
+/* 	padding: 0; */
+/* } */
+
+/* main > *:nth-child(1) { */
+/* 	background-color: salmon; */
+/* 	flex: 1 0 100%; */
+/* } */
+
+/* main > *:nth-child(2) { */
+/* 	background-color: steelblue; */
+/* } */
+
+/* main > *:nth-child(3) { */
+/* 	background-color: khaki; */
+/* } */
+
+/* body { */
+/* 	overflow: hidden; */
+/* } */
+
+/* main { */
+/* 	display: flex; */
+/* 	flex-wrap: wrap; */
+/* 	width: 100vw; */
+/* 	height: 100vh; */
+/* } */
+
+/* main > * { */
+/* 	flex: 1; */
+/* } */

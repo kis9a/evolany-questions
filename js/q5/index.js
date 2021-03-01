@@ -29,4 +29,6 @@ const Question5 = () => {
   console.log(result);
 };
 
+// const result = Object.entries(obj2).reduce((acc, [key, val]) => ({ ...acc, [key]: [...(acc[key] || []), ...val] }), obj1);
+
 export default Question5;

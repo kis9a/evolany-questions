@@ -17,6 +17,19 @@ const add = (...a) => {
   };
 };
 
+// const add = (...nums) => {
+//     let acc = 0;
+//     const fn = (...nums) => {
+//         if(nums.length) {
+//             acc = nums.reduce((acc, cur) => acc + cur, acc);
+//             return fn;
+//         } else {
+//             return acc;
+//         }
+//     }
+//     return fn(...nums);
+// }
+
 const arrSum = (arr = [0]) => arr.reduce((a, b) => a + b, 0);
 
 export default Question6;

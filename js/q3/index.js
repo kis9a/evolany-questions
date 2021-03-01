@@ -13,6 +13,8 @@ const convert = (num = 0) => {
   return result;
 };
 
+// const convert = num => num.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+
 const onFixNumberOfDigits = (num = 0) => {
   return Math.floor(num * 100) / 100;
 };
